@@ -3,6 +3,11 @@
 h1 {
     font-size:4.5rem;
     .flex();
+
+    @media @mobile {
+      align-content: center;
+      margin-top: 2rem;
+    }
 }
 
 nav {
@@ -16,10 +21,39 @@ nav {
     width:50%;
     margin:auto;
     margin-top: 2rem;
+
+    @media @mobile{
+    width:100%;
+}
 }
 
 .nav-container {
     background-color: lightgrey;
     width:95%;
     margin:auto;
+}
+// .space-images{
+    // display: flex;
+    // flex-direction: column;
+// }
+.main {
+    .extend
+    }
+
+
+.sky {
+
+    @media @mobile{
+      display:none;
+ }
+}
+
+.launch {
+    @media @mobile{
+    display:none;
+     }
+}
+
+.space-images {
+    .extend()
 }
